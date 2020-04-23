@@ -1,16 +1,16 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developer-portfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/saadpasta/developer-portfolio)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/86c52691ca3c46e4bf887d704c196824)](https://www.codacy.com/manual/saadpasta/developerFolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=saadpasta/developerFolio&amp;utm_campaign=Badge_Grade)
+# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/86c52691ca3c46e4bf887d704c196824)](https://www.codacy.com/manual/saadpasta/developerFolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=saadpasta/developerFolio&amp;utm_campaign=Badge_Grade)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
 
 <p align="center"> 
   <kbd>
-<img src="src/assests/images/portfolio.gif"></img>
+<img src="https://user-images.githubusercontent.com/48270786/78817321-9e1c7b00-79f0-11ea-9070-d87563f3d151.gif"></img>
   </kbd>
 </p>
 
 
-Just change `src/porfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want. 
+Just change `src/portfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want.
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
@@ -94,13 +94,17 @@ Copy your converted token and paste it in `/src/portfolio.js`
 
 ### To Change website content go to `/src/portfolio.js` & modify it as per your need.
 
+#### Using Emojis
+
+For adding emoji 😃 into the texts in Portfolio.js, use the `emoji()` function and pass the text you need as an argument. This would help in keeping Emojis compatible across different browsers and platforms.
+
 ```javascript
 /* Change this file to get your Personal Porfolio */
 
-const gretting = {
-  /* Your Summary And Gretting Section */
-  title: "Hi all 👋 I'm Saad",
-  subTitle: "A passionate Full Stack Software Developer 🚀.
+const greeting = {
+  /* Your Summary And Greeting Section */
+  title: "Hi all I'm Saad",
+  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -132,7 +136,7 @@ const twitterDetails = { ... }
 
 ```
 
-### Adding Twitter Timeline to your Page
+#### Adding Twitter Timeline to your Page
 Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
 
 ```javascript
@@ -148,6 +152,7 @@ Note: Don't use `@` symbol when adding username.
 - [graphql](https://graphql.org/) 
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
+- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
@@ -164,7 +169,7 @@ You could also deploy it directly with Netlify by linking your own repo.
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details
+This project is licensed under the GPL-3.0 License - see the [LICENSE](./LICENSE) file for details
 
 
 
@@ -203,6 +208,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://msayyaf.com"><img src="https://avatars3.githubusercontent.com/u/22149734?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed Sayyaf</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=msayyaf1" title="Documentation">📖</a></td>
     <td align="center"><a href="https://ashutosh1919.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=ashutosh1919" title="Code">💻</a></td>
     <td align="center"><a href="https://www.upwork.com/freelancers/~01d10c23d4ffe3c658"><img src="https://avatars0.githubusercontent.com/u/8683960?v=4" width="100px;" alt=""/><br /><sub><b>Rizwan Jamal ⚡️</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=Rizwanjamal" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://www.muhammadhasham.com"><img src="https://avatars0.githubusercontent.com/u/17927649?v=4" width="100px;" alt=""/><br /><sub><b>Muhammad Hasham</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=MohammadHasham" title="Code">💻</a></td>
   </tr>
 </table>
 
